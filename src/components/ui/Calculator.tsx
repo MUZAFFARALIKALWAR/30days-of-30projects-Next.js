@@ -8,6 +8,7 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 // Default export of the CalculatorComponent function
 export default function Calculator() {
@@ -61,6 +62,7 @@ export default function Calculator() {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100 dark:bg-gray-900">
       {/* Center the calculator within the screen */}
+      <Link className="p-2 rounded-xl text-center font-bold bg-gray-300 m-5" href={"/"}>Home</Link>
       <Card className="w-full max-w-md p-6 bg-white dark:bg-gray-800 shadow-lg rounded-lg">
         {/* Card header with title */}
         <CardHeader>
