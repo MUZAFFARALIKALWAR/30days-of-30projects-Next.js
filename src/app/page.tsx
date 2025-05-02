@@ -9,6 +9,7 @@ export default function Home() {
         <Link className="p-2 rounded-xl text-center font-bold bg-gray-300 m-5" href={"/calculator"}>Day-1 Simple Calculator</Link>
         <Link className="p-2 rounded-xl text-center font-bold bg-gray-300 m-5" href={"/word"}>Day-2 Word Counter</Link>
         <Link className="p-2 rounded-xl text-center font-bold bg-gray-300 m-5" href={"/timer"}>Day-3 Countdown Timer App 🙌</Link>
+        <Link className="p-2 rounded-xl text-center font-bold bg-gray-300 m-5" href={"/form"}>Day-4 Contact Form 📱</Link>
       </li>
      </ul>
    </main>

@@ -1,10 +1,10 @@
-import Timer from '@/components/count-down'
+import { ProfileForm } from '@/components/form'
 import React from 'react'
 
 function Page() {
   return (
     <div>
-      <Timer/>
+        <ProfileForm/>
     </div>
   )
 }
